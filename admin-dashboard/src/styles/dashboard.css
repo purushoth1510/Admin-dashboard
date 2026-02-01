@@ -1,0 +1,136 @@
+/* RESET */
+body {
+  margin: 0;
+}
+
+/* FULL APP LAYOUT */
+.app-layout {
+  display: flex;
+  height: 100vh;
+  background-color: #f5f7fb;
+}
+/* Hide scrollbar but allow scrolling */
+.content-wrapper {
+  padding: 20px;
+  overflow-y: auto;
+  
+  /* IE & Edge */
+  -ms-overflow-style: none;
+}
+
+/* Chrome, Safari, Edge */
+.content-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+
+/* SIDEBAR */
+.sidebar {
+  width: 240px;
+  background-color: #1f2933;
+  color: white;
+  flex-shrink: 0;
+}
+
+/* SIDEBAR ITEMS */
+.sidebar-item {
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 6px;
+}
+
+.sidebar-item:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.sidebar-item.active {
+  background-color: rgba(255, 255, 255, 0.2);
+  font-weight: 600;
+}
+
+/* MAIN CONTENT */
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* NAVBAR */
+.navbar {
+  height: 56px;
+  background-color: white;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* INNER PAGE */
+.content-wrapper {
+  padding: 20px;
+  overflow-y: auto;
+}
+
+/* STAT CARDS */
+.stat-card {
+  border-radius: 12px;
+  border: none;
+}
+
+/* CHART FIX */
+canvas {
+  max-height: 260px !important;
+}
+body {
+  margin: 0;
+}
+
+.app-layout {
+  display: flex;
+  height: 100vh;
+  background-color: #f5f7fb;
+}
+
+.sidebar {
+  width: 240px;
+  background-color: #1f2933;
+  color: white;
+  flex-shrink: 0;
+}
+
+.sidebar-item {
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 6px;
+}
+
+.sidebar-item:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.sidebar-item.active {
+  background-color: rgba(255, 255, 255, 0.2);
+  font-weight: 600;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  height: 56px;
+  background-color: #fff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.content-wrapper {
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.stat-card {
+  border-radius: 12px;
+  border: none;
+}
